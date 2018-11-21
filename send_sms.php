@@ -8,8 +8,8 @@ $TO_NUMBER = $_POST["to_number"];
 $FROM_NUMBER = $_POST["from_number"];
 $SMS = $_POST["message"];
 // Your Account SID and Auth Token from twilio.com/console
-$account_sid = 'AC01041e1b099256e23ddda67515257feb';
-$auth_token = '55a0c45c90b21018f6e12fc23ea253ec';
+$account_sid = 'accSID';
+$auth_token = 'accToken';
 // In production, these should be environment variables. E.g.:
 // $auth_token = $_ENV["TWILIO_ACCOUNT_SID"]
 
